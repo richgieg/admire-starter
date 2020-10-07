@@ -1,0 +1,14 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "tsc&&node ./build/Main.js",
+    "serve": "http-server www -c-1",
+    "start": "watch \"npm run build\" ./src --interval=1"
+  },
+  "dependencies": {
+    "admire": "^0.4.0",
+    "http-server": "^0.12.3",
+    "typescript": "^4.0.3",
+    "watch": "^1.0.2"
+  }
+}
